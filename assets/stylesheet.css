@@ -1,0 +1,49 @@
+/* 0 151 178 */
+/* .trocchi-regular {
+    font-family: "Trocchi", serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+html {
+    font-family: "Trocchi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.banner {
+  display: flex;
+}
+.banner_left {
+  width: 50%;
+  height: 150px;
+  background-image: url('images/logo1.png');
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  background-position: left center;
+}
+.banner_center {
+  position: relative;
+  width: 20%;
+  height: 150px;
+  background-color: #0097B2;
+  transform: skew(-20deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.banner_logo {
+  position: relative;
+  display: flex;
+  transform: skew(20deg);
+  max-height: 100%;
+  max-width: 100%;
+}
+.banner_right {
+  width: 50%;
+  height: 150px;
+  background-image: url('images/logo2.png');
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  background-position: left center;
+}
