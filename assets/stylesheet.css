@@ -71,6 +71,9 @@ body {
 
 /* Home Image */
 .home-image-text {
+  font-family: "Trocchi", serif !important;
+  font-weight: 400;
+  font-style: normal;
   text-align: center;
   font-size: 5vw;
 }
