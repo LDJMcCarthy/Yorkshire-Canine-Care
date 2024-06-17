@@ -7,7 +7,6 @@ body {
   font-style: normal;
 }
 
-
 /* Home Page Banner */
   .banner {
     position: relative;
@@ -49,7 +48,6 @@ body {
     background-size: auto 100%;
     background-position: left center;
   }
-
 
 /* Navbar */
 .navbar {
