@@ -180,7 +180,6 @@ body {
   font-style: normal;
   text-decoration: none;
 }
-
 /* Team Home Page */
 .team-row{
   padding-top: 30px;
@@ -223,13 +222,10 @@ body {
   font-style: normal;
   text-decoration: none;
 }
-
-
 /* Carousel */
 .carousel-item{
   max-height: 1000px !important;
 }
-
 /* Home Containers */
 .container-1{
   background-color: #005c6d;
@@ -239,7 +235,6 @@ body {
   justify-content: center;
   text-align: center;
 }
-
 /* Footer */
 .footer-row{
   font-family: "Montserrat", sans-serif !important;
@@ -261,9 +256,6 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
-
-
-
 /* TEST */
 .services-box{
   margin-bottom: 50px;
