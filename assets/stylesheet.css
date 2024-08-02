@@ -181,24 +181,24 @@ body {
   text-decoration: none;
 }
 /* Team Home Page */
-.team-row{
+.team-row {
   padding-top: 30px;
 }
-.team-column{
+.team-column {
   background-color: rgb(214, 218, 219);
   margin: 0px;
 }
-.team-heading{
+.team-heading {
   text-align: center;
   padding: 20px 0;
   margin-top: 50px;
   text-decoration: underline 2px;
 }
-.team-images{
+.team-images {
   max-width: 100%;
   display: block;
 }
-.team-para{
+.team-para {
   font-family: "Montserrat", sans-serif !important;
   font-weight: 300;
   font-style: normal;
@@ -208,7 +208,7 @@ body {
   padding-left: 50px;
   padding-right: 50px;
 }
-.team-button{
+.team-button {
   margin:0 auto !important;
   display:block !important;
   background-color: #00839a !important;
@@ -223,33 +223,33 @@ body {
   text-decoration: none;
 }
 /* Carousel */
-.carousel-item{
+.carousel-item {
   max-height: 1000px !important;
 }
 /* Home Containers */
-.container-1{
+.container-1 {
   background-color: #005c6d;
   color: #ffffff;
 }
-.home-column-1{
+.home-column-1 {
   justify-content: center;
   text-align: center;
 }
 /* Footer */
-.footer-row{
+.footer-row {
   font-family: "Montserrat", sans-serif !important;
   font-weight: 400;
   font-style: normal;
   background: linear-gradient(158deg, rgb(0, 213, 255) 0%, rgb(0, 160, 189) 50%, rgba(0,151,178,1) 100%);
   color: #ffffff;
 }
-.footer-left{
+.footer-left {
   text-align: left;
 }
-.footer-mid{
+.footer-mid {
   text-align: center;
 }
-.footer-right{
+.footer-right {
   text-align: right;
 }
 .socials {
@@ -260,30 +260,30 @@ body {
 .services-box{
   margin-bottom: 50px;
 }
-.services-box-text{
+.services-box-text {
   font-family: "Montserrat", sans-serif !important;
   font-weight: 400;
   font-style: normal;
   background: linear-gradient(158deg, rgba(0,151,178,1) 0%, rgb(0, 160, 189) 50%, rgb(0, 213, 255) 100%);
   color: #fff;
 }
-.services-box-text h1{
+.services-box-text h1 {
   font-size: 2.3vw;
 }
-.services-box-text p{
+.services-box-text p {
   font-size: 1.4vw;
   font-style: italic;
 }
-.services-box-image{
+.services-box-image {
   padding-left: 0px !important;
   padding-right: 0px !important;
   position: relative;
   display: flex;
 }
-.services-image{
+.services-image {
   max-width: 100%;
 }
-.services-price{
+.services-price {
   font-family: "Montserrat", sans-serif !important;
   font-weight: 400;
   font-style: normal;
