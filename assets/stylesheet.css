@@ -1,59 +1,18 @@
-/* 0 151 178 */
-
 /* Whole Website */
+html {
+  max-width: 100%;
+  overflow-x: clip;
+}
 body {
   font-family: "Trocchi", serif !important;
   font-weight: 400;
   font-style: normal;
   background-color: #f5e9e9 !important;
   color: #001217 !important;
-  overflow-x: hidden;
-}
-
-
-/* Home Page Banner */
-.banner {
-  position: relative;
-  display: flex;
-  width: 100%;
-  /* height: 70px; */
-  overflow: hidden;
-}
-.banner_left {
-  width: 100%;
-  height: 70px;
-  background-color: #e9f2f5;
-  /* background-image: url('images/banner.jpg');
-  background-repeat: repeat-x;
-  background-size: auto 100%;
-  background-position: left center; */
-}
-.banner_center {
-  position: absolute;
-  top: 0;
-  right: 45%;
-  width: 10%;
-  height: 70px;
-  background-color: #0097B2;
-  transform: skew(-20deg);
-  display: flex;
-  justify-content: center;
-  z-index: 1;
-}
-.banner_logo {
-  transform: skew(20deg);
-  max-height: 100%;
   max-width: 100%;
+  overflow-x: clip;
 }
-/* .banner_right {
-  width: 50%;
-  height: 70px;
-  background-color: #e9f2f5;
-  background-image: url('images/banner.jpg');
-  background-repeat: repeat-x;
-  background-size: auto 100%;
-  background-position: left center; 
-} */
+
 
 
 /* Navbar */
@@ -73,13 +32,11 @@ body {
   border-right: solid 2px #fff;
 }
 .nav-link {
-  font-size: 0.8vw !important;
+  font-size: 14px !important;
   font-weight: 600;
   color: #ffffff !important;
 }
-.active {
-  text-decoration: underline 1px solid;
-}
+
 
 /* Home Image */
 .home-container{
@@ -91,7 +48,8 @@ body {
 
 .home-image{
   display: block;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 .home-image-text {
   position: absolute;
@@ -117,7 +75,7 @@ body {
   font-weight: 300;
   font-style: normal;
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 2vw;
   color: white;
   text-shadow: 2px 2px 4px #222;
   transform: translateX(0);
@@ -129,7 +87,7 @@ body {
   font-weight: 300;
   font-style: normal;
   text-align: center;
-  font-size: 1.2vw;
+  font-size: 2vw;
   color: white;
   text-shadow: 2px 2px 4px #222;
 }
@@ -141,16 +99,24 @@ body {
   background-color: rgb(214, 218, 219);
   margin: 50px;
 }
+.services-banner{
+  background-color: rgb(214, 218, 219);
+  margin: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
+}
 .services-heading{
   text-align: center;
   padding: 20px 0;
   margin-top: 50px;
-  text-decoration: underline 2px;
+  color: #0097B2;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 800;
 }
 .services-images{
   padding-top: 30px;
   max-width: 90%;
-  max-height: 330px;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -188,14 +154,23 @@ body {
   background-color: rgb(214, 218, 219);
   margin: 0px;
 }
+.no-padding{
+  padding: 0px !important;
+}
+.img-right{
+  display: none;
+}
 .team-heading {
   text-align: center;
   padding: 20px 0;
   margin-top: 50px;
-  text-decoration: underline 2px;
+  color: #0097B2;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 800;
 }
 .team-images {
   max-width: 100%;
+  margin: auto;
   display: block;
 }
 .team-para {
@@ -222,9 +197,31 @@ body {
   font-style: normal;
   text-decoration: none;
 }
+/* Why Choose Us */
+.choose-column {
+  background-color: rgb(214, 218, 219);
+  margin: 20px;
+}
 /* Carousel */
-.carousel-item {
+/* .carousel-item {
   max-height: 1000px !important;
+} */
+.dots-button{
+  background-color:#0097B2 !important;
+}
+/* Reviews */
+.review-column{
+  background-color: rgb(214, 218, 219);
+  margin: 50px;
+  padding: 0px !important;
+}
+.review-img{
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.services-box-hidden{
+  display: none !important;
 }
 /* Home Containers */
 .container-1 {
@@ -242,6 +239,7 @@ body {
   font-style: normal;
   background: linear-gradient(158deg, rgb(0, 213, 255) 0%, rgb(0, 160, 189) 50%, rgba(0,151,178,1) 100%);
   color: #ffffff;
+  padding: 10px;
 }
 .footer-left {
   text-align: left;
@@ -249,8 +247,15 @@ body {
 .footer-mid {
   text-align: center;
 }
-.footer-right {
+#footer-anchor{
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+}
+.footer-right, p {
   text-align: right;
+  margin-bottom: 0px !important;
 }
 .socials {
   padding-left: 20px;
@@ -296,5 +301,58 @@ body {
   font-size: 1.4vw;  
 }
 
+/* Contact Us */
+.flexbox{
+  width: 80% !important;
+  margin: auto;
+}
+.contact-row{
+  background-color: rgb(214, 218, 219);
+  margin: 50px;
+}
 
-
+@media screen and (max-width: 768px) {
+  .home-image-text-subheading{
+    font-weight: 400;
+  }
+  .phone {
+    font-weight: 400;
+    font-size: 3vw;
+  }
+	.team-images {
+    height: auto;
+  }
+  .img-right{
+    display: block;
+  }
+  .img-left{
+    display: none;
+  }
+  .choose-column{
+    margin-bottom: 0px;
+  }
+  .team-para{
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .footer-right{
+    display: none;
+  }
+  .carousel{
+    display: none;
+  }
+  .services-box-hidden{
+    display: block !important;
+  }
+  .review-column{
+    margin: 0px !important;
+  }
+  .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,151,178, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  }
+  .navbar-toggler{
+    border-color: rgb(255, 255, 255, 0.75) !important;
+    border-width: 1px !important;
+    background-color: #ffffff !important;
+  }
+}
