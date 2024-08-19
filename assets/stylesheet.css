@@ -489,4 +489,7 @@ body {
     border-width: 1px !important;
     background-color: #ffffff !important;
   }
+  .services-heading{
+    font-size: 20px;
+  }
 }
