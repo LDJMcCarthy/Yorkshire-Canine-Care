@@ -264,6 +264,9 @@ body {
   margin: 30px;
   margin-bottom: 100px;
 }
+.upcoming-row{
+  margin-bottom: 150px;
+}
 .circle{
   background-color: #ffffff;
   width: 40px;
