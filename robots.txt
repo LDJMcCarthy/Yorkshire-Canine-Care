@@ -1,0 +1,9 @@
+User-agent: *
+Disallow:
+
+# Allow all CSS and JS files
+Allow: /*.css
+Allow: /*.js
+
+# Sitemap URL (update this with the actual URL once you have a sitemap)
+Sitemap: https://www.yorkshirecaninecare.com/sitemap.xml
