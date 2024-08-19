@@ -366,6 +366,9 @@ body {
   padding: 10px;
   font-size: 1.4vw;  
 }
+#gmaps{
+  margin-bottom: 100px;
+}
 
 /* Contact Us */
 .flexbox{
