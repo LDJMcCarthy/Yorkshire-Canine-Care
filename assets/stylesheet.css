@@ -256,9 +256,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 30px;
+  margin-bottom: 100px;
 }
 #walk-button{
   margin-top: auto;
+}
+/* upcoming */
+#upcoming-box{
+  margin: 30px;
+  margin-bottom: 100px;
 }
 .circle{
   background-color: #ffffff;
