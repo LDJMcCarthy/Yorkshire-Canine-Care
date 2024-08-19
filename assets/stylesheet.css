@@ -2,6 +2,7 @@
 html {
   max-width: 100%;
   overflow-x: clip;
+  height: 100%;
 }
 body {
   font-family: "Trocchi", serif !important;
@@ -136,6 +137,10 @@ body {
   padding-left: 50px;
   padding-right: 50px;
 }
+.bold{
+  font-weight: 600;
+  color: #005c6d;
+}
 .services-button{
   margin:0 auto !important;
   display:block !important;
@@ -206,6 +211,16 @@ body {
   background-color: rgb(214, 218, 219);
   margin: 20px;
 }
+.choose-para {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  padding-Top: 30px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 /* Carousel */
 /* .carousel-item {
   max-height: 1000px !important;
@@ -236,6 +251,35 @@ body {
   justify-content: center;
   text-align: center;
 }
+/* Walk Box */
+#walk-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#walk-button{
+  margin-top: auto;
+}
+.circle{
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.circle-text{
+  display: inline-block;
+  vertical-align: middle;
+}
+#contact-anchor{
+  color: #0097B2;
+  text-decoration: none;
+}
 /* Footer */
 .footer-row {
   font-family: "Montserrat", sans-serif !important;
@@ -245,8 +289,12 @@ body {
   color: #ffffff;
   padding: 10px;
 }
-.footer-left {
-  text-align: left;
+.footer-left p {
+  text-align: left !important;
+  margin-bottom: 0px !important;
+}
+.white {
+  color: #fff;
 }
 .footer-mid {
   text-align: center;
@@ -257,8 +305,8 @@ body {
   font-style: normal;
   color: #ffffff;
 }
-.footer-right, p {
-  text-align: right;
+.footer-right p {
+  text-align: right !important;
   margin-bottom: 0px !important;
 }
 .socials {
@@ -275,12 +323,18 @@ body {
   font-style: normal;
   background: linear-gradient(158deg, rgba(0,151,178,1) 0%, rgb(0, 160, 189) 50%, rgb(0, 213, 255) 100%);
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.services-box-text h1 {
-  font-size: 2.3vw;
+.services-box-heading {
+  position: relative;
+  font-weight: 600;
 }
-.services-box-text p {
-  font-size: 1.4vw;
+.services-box-para {
+  font-size: 22px;
+  vertical-align: bottom;
+  text-align: right;
   font-style: italic;
 }
 .services-box-image {
@@ -291,6 +345,7 @@ body {
 }
 .services-image {
   max-width: 100%;
+  padding: auto;
 }
 .services-price {
   font-family: "Montserrat", sans-serif !important;
@@ -313,6 +368,64 @@ body {
 .contact-row{
   background-color: rgb(214, 218, 219);
   margin: 50px;
+}
+.toggle-off{
+  display: none;
+}
+
+@media screen and (max-width: 2320px) {
+  .toggle-on{
+    display: none !important;
+  }
+  .toggle-off{
+    display: block;
+  }
+  .team-images{
+    max-width: 80%;
+  }
+  .team-column{
+    margin: 10px;
+  }
+  .choose-para{
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 1174px) {
+  
+  .choose-column{
+    margin: 10px
+  }
+  .review-column{
+    margin: 30px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .team-images{
+    max-width: 95%;
+  }
+  .team-column{
+    margin: 10px;
+  }
+  .team-para{
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1198px) {
+  .team-images{
+    max-width: 50%;
+  }
+  .team-para{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  #walk-para{
+    padding: 10px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -338,6 +451,9 @@ body {
   .team-para{
     padding-top: 10px;
     padding-bottom: 5px;
+  }
+  .footer-left{
+    display: none;
   }
   .footer-right{
     display: none;
