@@ -295,6 +295,8 @@ body {
   background: linear-gradient(158deg, rgb(0, 213, 255) 0%, rgb(0, 160, 189) 50%, rgba(0,151,178,1) 100%);
   color: #ffffff;
   padding: 10px;
+  position: sticky !important;
+  bottom: 0 !important;
 }
 .footer-left p {
   text-align: left !important;
