@@ -384,6 +384,9 @@ body {
 .toggle-off{
   display: none;
 }
+.bark-widget{
+  display: inline-block !important;
+}
 
 @media screen and (max-width: 2320px) {
   .toggle-on{
