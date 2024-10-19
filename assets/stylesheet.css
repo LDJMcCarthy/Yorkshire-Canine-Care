@@ -402,8 +402,8 @@ body {
   text-align: center;
   padding: 20px 0;
   margin-top: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
   color: #005c6d;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 800;
@@ -412,8 +412,8 @@ body {
   text-align: center;
   padding: 10px 0;
   margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
   color: #005c6d;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 800;
