@@ -512,6 +512,7 @@ body {
   font-style: normal;
   text-align: center;
 }
+
 .service-iframe{
   margin-bottom: 20px !important;
 }
@@ -701,5 +702,12 @@ body {
   }
   .faq-heading2{
     font-size: 20px;
+  }
+  .extra-grid{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .overlay-description{
+    margin-bottom: 0px;
   }
 }
