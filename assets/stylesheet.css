@@ -104,12 +104,14 @@ body {
   background-color: rgb(214, 218, 219);
   margin: 50px;
   text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .services-banner{
   background-color: rgb(214, 218, 219);
   margin: 50px;
   padding-bottom: 50px;
   margin-bottom: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .services-heading{
   text-align: center;
@@ -151,6 +153,11 @@ body {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 /* Team Home Page */
 .team-row {
@@ -161,6 +168,7 @@ body {
   margin: 0px;
   padding-left: 0px !important;
   padding-right: 0px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .no-padding{
   padding: 0px !important;
@@ -172,6 +180,14 @@ body {
   text-align: center;
   padding: 20px 0;
   margin-top: 50px;
+  color: #005c6d;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 800;
+}
+.team-heading2 {
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 20px;
   color: #005c6d;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 800;
@@ -209,6 +225,12 @@ body {
 .choose-column {
   background-color: rgb(214, 218, 219);
   margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.choose-column2 {
+  background-color: rgb(179, 195, 199);
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .choose-para {
   font-family: "Montserrat", sans-serif !important;
@@ -232,6 +254,7 @@ body {
   background-color: rgb(214, 218, 219);
   margin: 50px;
   padding: 0px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .review-img{
   width: 100%;
@@ -257,6 +280,7 @@ body {
   justify-content: space-between;
   margin: 30px;
   margin-bottom: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 #walk-button{
   margin-top: auto;
@@ -409,6 +433,18 @@ body {
   padding-left: 50px;
   padding-right: 50px;
 }
+.prices-para2{
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 600;
+  color: #005c6d;
+  font-style: normal;
+  text-align: center;
+  padding-Top: 0px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
 .grooming-button{
   margin:0 auto !important;
   background-color: #005c6d !important;
@@ -419,6 +455,11 @@ body {
   font-style: normal;
   text-decoration: none;
   display: table !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 .extra-grid {
   display: grid;
@@ -558,6 +599,14 @@ body {
   font-style: normal;
   text-decoration: none;
   display: table !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.map{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .faq-heading1{
   text-align: center;
