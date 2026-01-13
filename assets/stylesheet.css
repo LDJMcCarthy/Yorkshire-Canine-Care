@@ -413,6 +413,12 @@ body {
   text-align: left;
   justify-content: center ;
 }
+.grooming-checklist2{
+  padding-top: 0px;
+  text-align: left;
+  justify-content: center ;
+  margin: auto;
+}
 .grooming-extras{
   text-align: left;
   justify-content: center ;
